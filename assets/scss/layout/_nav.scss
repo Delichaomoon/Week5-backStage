@@ -1,0 +1,63 @@
+.navbar {
+  padding: 16px 0;
+  .logo {
+    background-image: url(.././image/nav/logo-white.png);
+    background-size: contain;
+    width: 80px;
+    height: 49px;
+    // 圖片取代文字
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: all 0.3s;
+    &:hover {
+      opacity: 0.5;
+    }
+  };
+  &-menu a {
+    color: #fff;
+    transition: all 0.5s;
+    border-bottom: solid 2px transparent;
+    &:hover {
+      border-bottom: solid 2px #fff;
+    }
+  }
+  @include mobile {
+    padding-bottom: 0;
+    .container {
+      flex-direction: column;
+      align-items: start;
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 100%;
+    }
+    .navbar-menu {
+      flex-wrap: wrap;
+      width: 100%;
+      margin-top: 16px;
+      text-align: center;
+      & li {
+        width: 50%;
+      }
+      & a {
+        margin: 0;
+        font-size: 16px;
+        text-align: center;
+        padding: 12px 0;
+        border: 1px solid map-get($color-type, bright);
+        transition: all 0.5s;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+.conatiner {
+  @include pad {
+    padding: 0 36px;
+  }
+  @include mobile {
+    padding: 0 12px;
+  }
+}
