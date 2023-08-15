@@ -5,15 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
+    <!-- Google Font: Lato + Roboto Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body>
-    <%- include('./layout/header'); -%>
-
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
-
-    <%- include('./layout/footer'); -%>
-
+    <nav class="nav p-2">
+      <h1 class="logo">Logo</h1>
+      <ul class="menu">
+        <li class="d-flex">
+          <span class="material-icons">assessment</span>
+          <p>Dashboard</p>
+      </li>
+        <li></li>
+        <li><a href="#"></a></li>
+        <li></li>
+        <li><a href="#"></a></li>
+        <li></li>
+      </ul>
+    </nav>
     <script type="module" src="../main.js"></script>
   </body>
 </html>
