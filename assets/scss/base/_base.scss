@@ -1,0 +1,46 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+body{
+  font-family:'Lato' , sans-serif;
+  line-height: 1.5;
+  color: $gray-900;
+  -webkit-text-size-adjust: 100%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover,
+  &:active,
+  &.active {
+    color: $success;
+  }
+}
+img, span, button {
+  vertical-align: middle;
+}
+
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: 700; // 1
+  text-align: inherit; // 2
+  text-align: -webkit-match-parent; // 3
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}

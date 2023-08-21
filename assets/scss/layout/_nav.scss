@@ -1,6 +1,7 @@
-.nav {
+nav {
   position:fixed;
   min-width: 200px;
+  height: 100%;
   .logo {
     background-image: url(.././image/logo-ANSWER.svg);
     width: 100%;
@@ -8,5 +9,11 @@
     text-indent: 105%;
     overflow: hidden;
     white-space: nowrap;
+  }
+  img{
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    margin-right: 16px;
   }
 }
