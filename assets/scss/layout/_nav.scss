@@ -6,7 +6,7 @@ nav {
     background-image: url(.././image/logo-ANSWER.svg);
     width: 100%;
     background-repeat: no-repeat;
-    text-indent: 105%;
+    text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
   }
@@ -16,4 +16,16 @@ nav {
     border-radius: 24px;
     margin-right: 16px;
   }
+  a {
+    &:hover{
+      color: $success;
+    }
+  }
+  li {
+    padding-left: 32px;
+    border-left: 4px solid transparent;
+  }
+}
+.active {
+  border-left: 4px solid $success;
 }
