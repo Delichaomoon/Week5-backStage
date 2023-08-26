@@ -1,9 +1,9 @@
 // color
 $primary: #198754;
 $white:    #fff;
+$secondary: #6c757d;
 $gray-100: #f8f9fa;
 $gray-400: #ced4da;
-$gray-600: #6c757d;
 $gray-900: #212529;
 $gray-other: #00000062;
 $black:    #000;
@@ -104,7 +104,7 @@ $input-disabled-color: $gray-100;
 $input-disabled-bg: $input-disabled-color;
 $input-disabled-border-color: transparent;
 
-$form-select-color: $gray-600;
+$form-select-color: $secondary;
 $form-select-border-radius: $size-h;
 $form-select-border-color: $gray-900;
 

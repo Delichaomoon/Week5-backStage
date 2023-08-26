@@ -4,10 +4,11 @@
     <div class="modal-content">
       <div class="modal-body p-8">
         <div class="d-flex">
+          <!-- 照片 -->
           <div class="admin-img flex-shrink-0" style="height: 141px; width: 141px;overflow: hidden;">
             <img src="../assets/image/emir.jpeg" class="img-fluid h-100" alt="emir's personal picture">
           </div>
-
+          <!-- 個人資料 + 叉叉-->
           <div class="ms-6 flex-grow-1">
             <div class="d-flex">
               <div class="info">
@@ -18,18 +19,18 @@
               </div>
               <button type="button" class="btn-close p-0 ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-
+            <!-- 摺疊 -->
             <div>
               <div class="accordion accordion-flush mt-5" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      <span class="badge bg-light text-gray600 rounded-pill">
+                      <span class="badge bg-light text-secondary rounded-pill">
                         Verified
                       </span> 
                     </button>
                   </h2>
-                  
+                  <!-- 摺疊的內容 -->
                   <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body d-flex gap-4 mt-8">
                       <button class="btn btn-outline-danger flex-fill">Deactivate</button>
@@ -39,6 +40,7 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
